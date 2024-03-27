@@ -1,0 +1,4 @@
+cd 到Anaconda 安装目录的bin目录下，输入命令：
+source activate
+若要退出终端，输入命令：
+source deactivate

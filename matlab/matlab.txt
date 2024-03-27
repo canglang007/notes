@@ -1,0 +1,2 @@
+matlab加注释的快捷键是ctrl+r，去掉是ctrl＋t
+利用mean函数可以计算平均值，mean（a，1）是每一列，mean（a，2）是每一行

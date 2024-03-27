@@ -1,0 +1,34 @@
+新上传文件：
+在已经有的仓库里：git add --all（或者是指定文件）
+然后：git commit -m "提交名称"  //这是提交给本地的版本库
+然后：git push origin master
+
+如果修改了某个文件，需要同步的话:
+//2.把本地文件夹的修改，同步到到本地仓库上（add）
+// . 表示全部修改
+git add . 
+
+//3.保存本地仓库的修改（commit）
+git commit -m "message"
+
+//4.把本地仓库的修改，同步到github远程仓库上（push）
+git push
+
+将github的修改同步到本地
+git pull origin
+
+
+
+
+1、在github上面新建一个仓库，仓库名称就是项目总的名称，里面不要放置任何东西，包括README.md，然后复制仓库的地址
+
+2、在本地项目名称下面的文件夹里面点击鼠标右键，然后点击Git Bash Here
+
+3、使用git init去把这个目录变成git可以管理的仓库，这个时候你会看到目录下面多了一个.git文件夹，千万不能删除，这是git需要使用的，如果文件里面隐藏的项目打勾了是看不到的
+
+4、使用git add .把所有的都放进暂存区，然后使用git commit -m "提交名称"把所有的都放进版本库
+
+5、使用git remote add origin 上面复制的仓库地址去连接远程仓库，出现fatal:remote origin already exists.说明连接成功了，如果没有出现提示，那就在尝试一次本操作
+
+6、使用git push -u origin master把本地master分支中的内容推送到远程仓库的master分支里面，其中-u代表让本地的master分支和远程的master分支建立联系，之后在推送就可以使用git push origin master来推送了
+
