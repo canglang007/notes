@@ -48,7 +48,7 @@ screen -r name&#x20;
 
 - **显示 screen list**
 
-  ​​​​​​​screen -ls
+  ​​​​​​screen -ls
 
 - **连接状态为【Attached】的 screen**
 
@@ -60,7 +60,7 @@ screen -r name&#x20;
 
 - **删除指定 screen, your_screen_name 为待删除的 screen name**
 
-  ​​​​​​​screen -S your_screen_name -X quit
+  ​​​​​​screen -S your_screen_name -X quit
 
 ## 4.暂停进程与恢复
 
@@ -102,7 +102,7 @@ Hello, World!
 
 如果  `bar.txt`  已经存在，其内容将被  `foo.txt`  的内容覆盖。如果 bar.txt 不存在，则会被创建。
 
-#### **2. 复制目录（及其内容）**
+#### **b. 复制目录（及其内容）**
 
 cp -R foo-folder bar-folder
 
@@ -117,6 +117,10 @@ cp -R foo-folder bar-folder
 - `foo-folder`: 要复制的源目录。
 
 - `bar-folder`: 要复制源目录的目标目录。
+
+  
+
+### 6.2文件查看
 
 - 可以使用 touch 等创建，cat 可以查看
 
